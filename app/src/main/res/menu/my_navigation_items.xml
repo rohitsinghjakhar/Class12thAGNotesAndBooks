@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/notes"
+            android:title="Notes"/>
+
+
+        <item
+            android:id="@+id/nav_Books"
+            android:icon="@drawable/book"
+            android:title="Books"/>
+
+
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/jet_taiyari"
+            android:title="Quiz"/>
+
+
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/about"
+            android:title="About us"/>
+
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/share"
+            android:title="Share App"/>
+
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/rate"
+            android:title="Rate App"/>
+
+        <item
+            android:id="@+id/nav_other_apps"
+            android:icon="@drawable/more_apps"
+            android:title="Other Apps"/>
+
+
+    </group>
+
+
+    <item android:title="Chat with us">
+        <menu>
+            <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/twitter"
+                android:title="Whatsapp group"/>
+
+            <item
+                android:id="@+id/nav_wwww"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"/>
+
+        </menu>
+
+    </item>
+</menu>
